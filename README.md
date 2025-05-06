@@ -8,25 +8,44 @@ Furthermore, redundant and duplicate columns such as report numbers and timestam
 ![image](https://github.com/user-attachments/assets/83805140-5ee3-4cf0-ab2f-eb9f30588ff6)
 
 
+
+![image](https://github.com/user-attachments/assets/60070cc0-6e12-4fb8-b605-c5a8252072b6)
+
+
+
+
 ![image](https://github.com/user-attachments/assets/c7c1b0fd-b127-45b4-904d-64a35e444c6e)
 
 
-![image](https://github.com/user-attachments/assets/60070cc0-6e12-4fb8-b605-c5a8252072b6)
 
 
 ![image](https://github.com/user-attachments/assets/44cff63c-b63e-430a-a1c2-48221de66499)
 
 
+
+
 ![image](https://github.com/user-attachments/assets/2ddba95c-8ee9-42a0-974b-115228e15e24)
+
+
 
 
 ![image](https://github.com/user-attachments/assets/a84992ef-38aa-4768-8190-0585eadec0f3)
 
+
+
+
 ![image](https://github.com/user-attachments/assets/41f6280b-6f61-4737-98be-a43e194c3b62)
+
+
+
 
 ![image](https://github.com/user-attachments/assets/962c6a8d-be06-458e-b48a-579ae1184d3e)
 
+
+
 ![image](https://github.com/user-attachments/assets/487b6639-6e90-4f01-b854-83a1d8fff24f)
+
+
 
 After evaluation of various models, Random Forest was the most accurate model, proving to be strong in dealing with imbalanced datasets and complex patterns in crime data. The model is deployed in an interactive web app with Streamlit, enabling user to provide crime features and get predictions. It can be extended further with more extensive and diverse datasets, more robust deep learning models, and other crime-related factors, enhancing prediction accuracy and practical applicability. These can enable authorities to frame more effective practical crime-prevention and resource-allocation strategies.
 
