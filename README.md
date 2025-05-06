@@ -1,52 +1,90 @@
-This project emphasizes creating a system for classifying crimes through machine learning models such as Random Forest, SVM, and Logistic Regression to identify crimes as violent or non-violent from India's crime records. The task is to preprocess and analyze crime datasets, apply and compare various models, and create an interactive Streamlit-based web application for making real-time predictions. 
-The major findings are that Random Forest performs better than other models, and accurate feature preprocessing greatly improves accuracy.
-The solution involves a web-based application allowing users to input data, view results in visualization, and classify crimes effectively. The project shows the capability of machine learning for crime analysis with a data-driven solution to support law enforcement agencies in crime prevention and decision-making.
+#  Crime Classification Using Machine Learning
 
-The information was collected from police databases to guarantee reliability and pertinence to crime classification. Preprocessing was done prior to training machine learning models to improve data quality and model effectiveness. Missing value handling, encoding categorical features into numerical form, and normalizing numerical attributes to provide consistency across different scales were all involved.
-Furthermore, redundant and duplicate columns such as report numbers and timestamps were removed to enhance computational efficiency and feature useful crime-related information. Since crime data are usually imbalanced, undersampling methods were applied to possess a representative subset of different crime types to prevent model bias toward more frequent types of crimes.
+This project emphasizes the creation of a crime classification system using machine learning models such as **Random Forest**, **SVM**, and **Logistic Regression** to categorize crimes as **violent** or **non-violent** based on data from Indian crime records.
 
-![image](https://github.com/user-attachments/assets/83805140-5ee3-4cf0-ab2f-eb9f30588ff6)
+The goal is to preprocess and analyze crime datasets, apply and compare various machine learning models, and develop an **interactive Streamlit-based web application** for real-time crime prediction.
 
+---
 
+##  Project Objective
 
-![image](https://github.com/user-attachments/assets/60070cc0-6e12-4fb8-b605-c5a8252072b6)
+To build a reliable, data-driven solution that classifies crimes effectively to support law enforcement agencies in **crime prevention** and **decision-making**.
 
+---
 
+##  Key Features
 
+- Real-time prediction of crime type (Violent / Non-Violent)  
+- Web application with interactive input and visualization  
+- Model performance comparison and insights for practical deployment  
+- Data preprocessing techniques for handling real-world data
 
-![image](https://github.com/user-attachments/assets/c7c1b0fd-b127-45b4-904d-64a35e444c6e)
+---
 
+##  Technologies Used
 
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Streamlit  
+- Matplotlib, Seaborn
 
+---
 
-![image](https://github.com/user-attachments/assets/44cff63c-b63e-430a-a1c2-48221de66499)
+##  Project Pipeline
 
+### 1. **Data Collection & Preprocessing**
+- Sourced from verified **police databases**
+- Cleaned data to remove redundant and duplicate features like timestamps and report numbers  
+- Handled missing values  
+- Encoded categorical variables  
+- Normalized numerical attributes
 
+### 2. **Handling Imbalanced Data**
+- Applied **undersampling techniques** to mitigate model bias toward frequently occurring crime types
 
+### 3. **Model Training & Comparison**
+- Trained and tested multiple ML models:  
+  - Logistic Regression  
+  - Support Vector Machines (SVM)  
+  - Random Forest (Best performer)
 
-![image](https://github.com/user-attachments/assets/a84992ef-38aa-4768-8190-0585eadec0f3)
+### 4. **Model Evaluation**
+- Evaluated models based on:  
+  - **Accuracy**  
+  - **Precision**  
+  - **Recall**  
+  - **F1-Score**  
 
+### 5. **Interactive Web App**
+- Built using **Streamlit**
+- Allows users to input crime-related features and receive predictions instantly  
+- Visualizes prediction results for user-friendly interpretation
 
+---
 
+##  Visual Insights
 
-![image](https://github.com/user-attachments/assets/41f6280b-6f61-4737-98be-a43e194c3b62)
+![Image1](https://github.com/user-attachments/assets/83805140-5ee3-4cf0-ab2f-eb9f30588ff6)  
+![Image2](https://github.com/user-attachments/assets/60070cc0-6e12-4fb8-b605-c5a8252072b6)  
+![Image3](https://github.com/user-attachments/assets/c7c1b0fd-b127-45b4-904d-64a35e444c6e)  
+![Image4](https://github.com/user-attachments/assets/44cff63c-b63e-430a-a1c2-48221de66499)  
+![Image5](https://github.com/user-attachments/assets/a84992ef-38aa-4768-8190-0585eadec0f3)  
+![Image6](https://github.com/user-attachments/assets/41f6280b-6f61-4737-98be-a43e194c3b62)  
+![Image7](https://github.com/user-attachments/assets/962c6a8d-be06-458e-b48a-579ae1184d3e)  
+![Image8](https://github.com/user-attachments/assets/487b6639-6e90-4f01-b854-83a1d8fff24f)
 
+---
 
+##  Conclusion
 
+After evaluating various machine learning models, **Random Forest** proved to be the most accurate and robust, especially when handling imbalanced datasets and complex crime patterns.
 
-![image](https://github.com/user-attachments/assets/962c6a8d-be06-458e-b48a-579ae1184d3e)
+The model is deployed in an **interactive Streamlit app**, allowing users to input features and receive real-time predictions. Future work could incorporate:  
+- More extensive and diverse datasets  
+- Deep learning models  
+- Additional crime-related attributes  
 
+These enhancements can significantly boost the model's predictive power and help authorities implement **more effective crime-prevention strategies**.
 
-
-![image](https://github.com/user-attachments/assets/487b6639-6e90-4f01-b854-83a1d8fff24f)
-
-
-
-After evaluation of various models, Random Forest was the most accurate model, proving to be strong in dealing with imbalanced datasets and complex patterns in crime data. The model is deployed in an interactive web app with Streamlit, enabling user to provide crime features and get predictions. It can be extended further with more extensive and diverse datasets, more robust deep learning models, and other crime-related factors, enhancing prediction accuracy and practical applicability. These can enable authorities to frame more effective practical crime-prevention and resource-allocation strategies.
-
-
-
-
-
-
-
+---
