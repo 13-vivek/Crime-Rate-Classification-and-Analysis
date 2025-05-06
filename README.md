@@ -24,11 +24,6 @@ Furthermore, redundant and duplicate columns such as report numbers and timestam
 
 
 
-![image](https://github.com/user-attachments/assets/2ddba95c-8ee9-42a0-974b-115228e15e24)
-
-
-
-
 ![image](https://github.com/user-attachments/assets/a84992ef-38aa-4768-8190-0585eadec0f3)
 
 
