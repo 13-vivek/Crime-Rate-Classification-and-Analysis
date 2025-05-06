@@ -23,7 +23,8 @@ To build a reliable, data-driven solution that classifies crimes effectively to 
 
 ##  Technologies Used
 
-- Python  
+- Python
+- Jupyter Notebook
 - Pandas, NumPy  
 - Scikit-learn  
 - Streamlit  
